@@ -1,0 +1,226 @@
+header{
+    background:#aa8435;
+    text-align:center;
+    position:relative;
+    height:80px;
+    top:0;
+}
+.NavButton{
+    position:absolute;
+    top:0;
+    left:0;
+    width:85px;
+    height:80px;
+    background:url(../img/iphone/button.jpg) no-repeat;
+}
+.nav{
+    width:100%;
+    position:absolute;
+    top:80px;
+    z-index:2;
+    text-align:center;
+    display:none;
+    background:#f4f4f4;
+}
+.nav li a{
+    display:block;
+    font-size:29px;
+    height:70px;
+    line-height:70px;
+    color:#aa8435;
+    border-bottom:1px solid #d7c49c;
+    font-weight:400;
+}
+.logo{
+    display:block;
+    padding-top:10px;
+}
+.video{
+    border-bottom:16px solid #aa8435;
+}
+.video video{
+    vertical-align:bottom;
+    display:block;
+}
+.new{
+    margin-top:10px;
+    padding-left:17px;
+    font-size:26px;
+    height:50px;
+    line-height:50px;
+    border-bottom:1px solid #aaa;
+}
+.new a{
+    color:#000;
+}
+ .wrap{
+     width:600px;
+     height:362px;
+     margin:50px auto;
+     border-bottom:1px solid ;
+     position:relative;
+     overflow:hidden;
+ }
+.ImgOut{
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+.ImgOut li{
+    float:left;
+}
+
+.Button{
+    display:none;
+}
+.Button span{
+    width:50px;
+    height:100px;
+    background:#4d4d4d;
+    opacity: .8;
+    line-height:100px;
+    text-align:center;
+    cursor:pointer;
+}
+.leftButton{
+    position:absolute;
+    top:50%;
+    margin-top:-50px;
+}
+.rightButton{
+    position:absolute;
+    top:50%;
+    right:0;
+    margin-top:-50px;
+}
+
+.circle{
+    position:absolute;
+    bottom:10px;
+    width:100%;
+    font-size:0;
+    text-align: center;
+}
+.circle li{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    border-radius:100%;
+    background:#4d4d4d;
+    /*border:1px solid red;*/
+    margin:0 5px;
+    cursor:pointer;
+}
+.circle .active{
+    background:#fff;
+}
+
+.detailnew{
+    margin-top:20px;
+    border-top:1px solid #aaa;
+}
+.detailwrap{
+    width:600px;
+    margin:0 auto;
+}
+.detailwrapnew li{
+    margin-top:20px;
+}
+.newD{
+    width:136px;
+    height:42px;
+    background:#22ac38;
+    color:#fff;
+    text-align:center;
+    line-height:42px;
+    font-size:24px;
+}
+.zhise{
+    background:#8464ae;
+}
+.hongse{
+    background:#e60012;
+}
+.newL{
+    font-size:26px;
+    color:#747474;
+    margin-top:12px;
+}
+.newT{
+    font-size:20px;
+    color:#888888;
+    padding-top:5px;
+}
+
+.hhr{
+   border-bottom:16px solid #265291;
+   margin-top:30px;
+}
+.hhr1{
+    border-bottom:16px solid #c4302b;
+}
+.detailwrapout{
+    background:#aa8435;
+    text-align:center;
+    border-bottom:#aa8435 15px solid;
+}
+.two {
+    background:#008efc;
+    border-bottom:#008efc 15px solid;
+}
+.three{
+    background:#17902d;
+    border-bottom:#17902d 15px solid;
+}
+.four{
+    background:#66c34c;
+    border-bottom:#66c34c 15px solid;
+}
+.five{
+    background:#881e0e;
+    border-bottom:#881e0e 15px solid;
+}
+.six{
+    background:#17902d;
+    border-bottom:#17902d 15px solid;
+}
+.bigword{
+    margin-top:80px;
+    font-size:34px;
+    color:#fff;
+    margin-bottom:25px;
+}
+.smallword{
+    font-size:22px;
+    color:#fff;
+}
+.about{
+    background:#f4f4f4;
+}
+.detailwrap dl{
+    width:200px;
+    margin:40px 0;
+}
+.detailwrap dl dd{
+    color:#aa8535;
+    font-size:20px;
+    text-align:center;
+}
+footer{
+    margin-top:20px;
+    border-top:1px solid #aaa;
+    text-align:center;
+}
+footer a {
+    padding-top:50px;
+    font-size:22px;
+    padding-left:20px;
+    display:inline-block;
+}
+.copy{
+    padding-top:20px;
+    padding-bottom:50px;
+    color:#a7a7a7;
+    font-size:18px;
+}
